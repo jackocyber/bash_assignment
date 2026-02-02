@@ -48,4 +48,29 @@
 // You may manually create some entries or use nano.
 
 // 2. Search for Errors
-// Use grep to search for lines containing the word "error".
+// Use grep to search for lines containing the word "error". case insensitive.
+
+// Count Error Lines:
+// - Write a command that counts how many lines in system.log contain "error".
+
+// Exercise 3B: Using awk
+// 1. Extract Data from sample.txt:
+// - Assume each line in sample.txt contains several words separated by spaces.
+// - Write an awk command to print the second word from each line.
+// 2. Word Count per Line:
+// - Write an awk command to count and display the number of words in each line
+// of sample.txt.
+
+// Part 4: Combining Commands
+
+Tasks:
+1. Find and Search in Scripts:
+- In the assignment directory, list all files with a .sh extension (in the scripts
+directory) and then use grep to search for the keyword "echo" within these
+files.
+
+Part 5: Bonus Exercise Using sed
+Task: Search and Replace in a File
+- In the data directory, use sed to replace every occurrence of the word "old" with
+"new" in sample.txt and output the result to a new file named
+sample_updated.txt.
